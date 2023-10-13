@@ -17,7 +17,7 @@ const PopularMenu = () => {
                 <MenuItem key={item._id} item={item}></MenuItem>
             ))}
         </div>
-        <Button title={'View Full Menu'}/>
+        <Button btnTitle={'View Full Menu'}/>
       </div>
     );
 };
