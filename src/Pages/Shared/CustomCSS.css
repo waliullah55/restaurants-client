@@ -1,3 +1,6 @@
-.featured{
-    background-image: url('../../assets/home/featured.jpg');
+.featured {
+  background-image: url("../../assets/home/featured.jpg");
+}
+.authImg {
+  background-image: url("../../assets/others/authentication.png");
 }

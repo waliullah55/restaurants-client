@@ -12,7 +12,7 @@ const MenuCategory = ({ items, bgImg, title, btnTitle }) => {
                     <MenuItem key={item._id} item={item}></MenuItem>
                 ))}
             </div>
-            <Button btnTitle={btnTitle} />
+            <Button whereGo={title} btnTitle={btnTitle} />
         </div>
     );
 };

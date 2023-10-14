@@ -23,10 +23,10 @@ const Menu = () => {
             <Cover bgImg={bgImg} title='OUR MENU' />
             <SectionTittle subHeading={"Don't miss"} Heading="TODAY'S OFFER" />
             <MenuCategory items={offers} btnTitle='ORDER YOUR FAVOURITE FOOD' />
-            <MenuCategory items={desserts} btnTitle='ORDER YOUR FAVOURITE Dessert' title='DESSERTS' bgImg={dessertImg} />
-            <MenuCategory items={pizzas} btnTitle='ORDER YOUR FAVOURITE Pizza' title='PIZZA' bgImg={pizzaImg} />
-            <MenuCategory items={salads} btnTitle='ORDER YOUR FAVOURITE Salad' title='SALADS' bgImg={salsadImg} />
-            <MenuCategory items={soups} btnTitle='ORDER YOUR FAVOURITE Soup' title='SOUPS' bgImg={soupImg} />
+            <MenuCategory items={desserts} btnTitle='ORDER YOUR FAVOURITE Dessert' title='dessert' bgImg={dessertImg} />
+            <MenuCategory items={pizzas} btnTitle='ORDER YOUR FAVOURITE Pizza' title='pizza' bgImg={pizzaImg} />
+            <MenuCategory items={salads} btnTitle='ORDER YOUR FAVOURITE Salad' title='salad' bgImg={salsadImg} />
+            <MenuCategory items={soups} btnTitle='ORDER YOUR FAVOURITE Soup' title='soup' bgImg={soupImg} />
         </div>
     );
 };

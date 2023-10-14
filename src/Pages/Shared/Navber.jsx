@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 const Navber = () => {
     const nevOptions = <>
                 <li><Link to='/'>Home</Link></li>
-                <li><Link to='/'>Our Shop </Link></li>
+                <li><Link to='/order/salad'>Our Shop </Link></li>
                 <li><Link to='/menu'>Our Menu </Link></li>
                 <li><Link to='/'>Contact Us </Link></li>
                 <li><Link to='/'>Dashboard </Link></li>
-                <li><Link to='/'>Login </Link></li>
+                <li><Link to='/login'>Login </Link></li>
     </>
     return (
 <div className="navbar fixed z-10 bg-black bg-opacity-40  text-white max-w-7xl">
