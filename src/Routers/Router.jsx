@@ -5,6 +5,9 @@ import Menu from "../Pages/Menu/Menu";
 import Order from './../Pages/Order/Order';
 import Login from "../Pages/Order/Login";
 import SignUp from "../Pages/Order/SignUp";
+import Dashboard from "../Layouts/Dashboard";
+import MyCart from './../Pages/Dashbord/MyCart';
+import PrivateRoute from './PrivateRoute';
 
 
 
@@ -36,6 +39,16 @@ const router = createBrowserRouter([
       }
     ]
   },
+  {
+    path: '/dashbord',
+    element: <PrivateRoute><Dashboard /></PrivateRoute>,
+    children: [
+      {
+        path: 'myCart',
+        element: <MyCart />
+      }
+    ]
+  }
 ]);
 
 

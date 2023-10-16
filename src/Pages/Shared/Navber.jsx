@@ -21,8 +21,8 @@ const Navber = () => {
     <li><Link to='/order/salad'>Our Shop </Link></li>
     <li><Link to='/menu'>Our Menu </Link></li>
     <li><Link to='/'>Contact Us </Link></li>
-    <li><Link to='/'>Dashboard </Link></li>
-    <li><Link to='/'>
+    {user && <li><Link to='/dashbord/mycart'>Dashboard </Link></li>}
+    <li><Link to='/dashbord/mycart'>
       <button className="text-2xl gap-2 flex">
         <FaShoppingCart />
         <div className="badge badge-secondary">{cart?.length || 0}</div>
